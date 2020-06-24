@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="447.0" prefWidth="602.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="447.0" fitWidth="198.0">
+         <image>
+            <Image url="@../../../IMAGES/flat-design-medical-mask_23-2148469068.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="295.0" layoutY="14.0" prefHeight="47.0" prefWidth="215.0" text="Who are We?" textFill="#16756c">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Text fill="#16756c" layoutX="221.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to RecDB, your number one source for authentic Covid-19 data. We're dedicated to giving you the fastest updated status, with a focus on dependability, customer service and authenticity." textAlignment="JUSTIFY" wrappingWidth="357.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#16756c" layoutX="221.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We are dedicated to provide you a database of covid-19 effected patients. With the aim to help take neccessary action in the treatment of the sick by providing patient history." textAlignment="JUSTIFY" wrappingWidth="357.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#16756c" layoutX="221.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We also have unique features like Facial Recognation to help identify the patient." textAlignment="JUSTIFY" wrappingWidth="357.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#16756c" layoutX="221.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us." textAlignment="JUSTIFY" wrappingWidth="357.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

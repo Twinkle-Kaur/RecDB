@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="frame" prefHeight="314.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Login">
+   <children>
+      <JFXTextField fx:id="userName" layoutX="96.0" layoutY="115.0" prefHeight="25.0" prefWidth="220.0" promptText="User Name" />
+      <JFXPasswordField fx:id="pass" layoutX="100.0" layoutY="172.0" prefHeight="25.0" prefWidth="220.0" promptText="Password" />
+      <JFXButton fx:id="logBtn" layoutX="91.0" layoutY="216.0" onAction="#logIn" prefHeight="39.0" prefWidth="209.0" style="-fx-background-color: #24b2a4; -fx-background-radius: 30;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="31.0" fitWidth="30.0" layoutX="56.0" layoutY="112.0">
+         <image>
+            <Image url="@../../../IMAGES/58.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="55.0" layoutY="169.0">
+         <image>
+            <Image url="@../../../IMAGES/icons8-lock-32.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="80.0" layoutY="29.0">
+         <image>
+            <Image url="@../../../IMAGES/coronavirus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="103.0" layoutY="48.0">
+         <image>
+            <Image url="@../../../IMAGES/database.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="157.0" layoutY="28.0" prefHeight="52.0" prefWidth="67.0" text="Rec" textFill="#24b2a4">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="28.0" prefHeight="39.0" prefWidth="57.0" text="DB" textFill="#ee0b0b">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="load" fitHeight="39.0" fitWidth="61.0" layoutX="160.0" layoutY="265.0">
+         <image>
+            <Image url="@../../../IMAGES/Ellipsis-1s-61px.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

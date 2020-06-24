@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="frame" prefHeight="490.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeController">
+   <children>
+      <Pane prefHeight="490.0" prefWidth="170.0" style="-fx-background-color: #1d968a;">
+         <children>
+            <Label layoutX="24.0" layoutY="52.0" prefHeight="52.0" prefWidth="67.0" text="Rec" textFill="#24b2a4">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="52.0" prefHeight="39.0" prefWidth="57.0" text="DB" textFill="#ee0b0b">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Label>
+            <Separator layoutX="7.0" layoutY="111.0" prefHeight="4.0" prefWidth="156.0" style="-fx-c: #24b2a4;" />
+            <Pane layoutY="135.0" prefHeight="93.0" prefWidth="170.0" style="-fx-background-color: #24b2a4;">
+               <children>
+                  <Label layoutX="4.0" layoutY="4.0" prefHeight="17.0" prefWidth="156.0" text="Welcome to RecDB!" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="27.0" prefHeight="17.0" prefWidth="148.0" text="We provide you with" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="47.0" prefHeight="17.0" prefWidth="148.0" text="the data of CoVid-19" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="64.0" prefHeight="17.0" prefWidth="148.0" text="patients." textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="22.0" layoutY="247.0" prefHeight="39.0" prefWidth="127.0" text="Dashboard" textFill="#3debd9">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Separator layoutX="7.0" layoutY="288.0" prefHeight="4.0" prefWidth="156.0" style="-fx-c: #24b2a4;" />
+            <JFXButton fx:id="recBtn" layoutX="18.0" layoutY="311.0" onAction="#rec" prefHeight="20.0" prefWidth="127.0" text="RECOGNIZE" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="cntBtn" layoutX="19.0" layoutY="425.0" onAction="#contact" prefHeight="30.0" prefWidth="127.0" style="-fx-border-color: #ffffff;" text="CONTACT US" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="abtBtn" layoutX="15.0" layoutY="357.0" onAction="#aboutUs" prefHeight="20.0" prefWidth="127.0" text="ABOUT US" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="73.0" layoutY="28.0">
+         <image>
+            <Image url="@../../../IMAGES/database.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="50.0" layoutY="9.0">
+         <image>
+            <Image url="@../../../IMAGES/coronavirus.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="data" layoutX="175.0" layoutY="59.0" prefHeight="426.0" prefWidth="629.0" />
+      <Pane fx:id="toolBar" layoutX="170.0" prefHeight="50.0" prefWidth="640.0" style="-fx-background-color: #24b2a4;">
+         <children>
+            <Text fx:id="text" fill="WHITE" layoutX="185.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome," wrappingWidth="211.177734375">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="logOut" layoutX="513.0" layoutY="9.0" onAction="#logOut" prefHeight="32.0" prefWidth="100.0" style="-fx-border-color: #ffffff;" text="LOGOUT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

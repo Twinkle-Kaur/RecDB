@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="566.0" prefWidth="530.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RecController">
+   <children>
+      <JFXCheckBox fx:id="haar" checkedColor="#24b2a4" layoutX="81.0" layoutY="87.0" onAction="#haarSelector" text="Haar Classifier">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="lbp" layoutX="301.0" layoutY="87.0" onAction="#lbpSelector" text="LBP Classifier">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXCheckBox>
+      <Separator layoutX="24.0" layoutY="126.0" prefHeight="2.0" prefWidth="482.0" />
+      <ImageView fx:id="frame" fitHeight="305.0" fitWidth="446.0" layoutX="44.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="148.0" layoutY="23.0">
+         <image>
+            <Image url="@../../../IMAGES/coronavirus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="171.0" layoutY="42.0">
+         <image>
+            <Image url="@../../../IMAGES/database.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="289.0" layoutY="21.0" prefHeight="59.0" prefWidth="67.0" text="DB" textFill="#ee0b0b">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="21.0" prefHeight="59.0" prefWidth="80.0" text="Rec" textFill="#24b2a4">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Separator layoutX="24.0" layoutY="86.0" prefHeight="3.0" prefWidth="482.0" />
+      <JFXButton fx:id="recBtn" disable="true" layoutX="88.0" layoutY="497.0" onAction="#startCam" prefHeight="44.0" prefWidth="360.0" style="-fx-background-color: #1d968a; -fx-background-radius: 30;" text="Recognize" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

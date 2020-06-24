@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="176.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="72.0" layoutY="55.0" prefHeight="31.0" prefWidth="201.0" text="+91-863847xxxx">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="84.0" prefHeight="31.0" prefWidth="201.0" text="recdb@gmail.com">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="120.0" prefHeight="31.0" prefWidth="201.0" text="Koraikowa, Jorhat , Assam">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="140.0" prefHeight="31.0" prefWidth="201.0" text="India, 785001">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="32.0" layoutY="57.0">
+         <image>
+            <Image url="@../../../IMAGES/phone-call.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="34.0" layoutY="93.0">
+         <image>
+            <Image url="@../../../IMAGES/envelope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="30.0" layoutX="32.0" layoutY="122.0">
+         <image>
+            <Image url="@../../../IMAGES/placeholder.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="37.0" layoutX="51.0" layoutY="6.0">
+         <image>
+            <Image url="@../../../IMAGES/coronavirus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="30.0" layoutX="68.0" layoutY="19.0">
+         <image>
+            <Image url="@../../../IMAGES/database.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="156.0" layoutY="2.0" prefHeight="39.0" prefWidth="57.0" text="DB" textFill="#ee0b0b">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="2.0" prefHeight="45.0" prefWidth="51.0" text="Rec" textFill="#24b2a4">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
